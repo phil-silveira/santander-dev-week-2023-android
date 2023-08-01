@@ -37,7 +37,6 @@ class MainViewModel @Inject constructor(
             _state.value = MainState(loading = false, response = response)
         }.onFailure {
             it.printStackTrace()
-            // todo handle error
         }
     }
 }

@@ -97,7 +97,6 @@ fun MainApp(response: Response? = null) =
                         modifier = Modifier
                             .fillMaxWidth()
                             .padding(
-                                horizontal = Spacing_2,
                                 vertical = Spacing_3
                             )
                             .constrainAs(menu) {

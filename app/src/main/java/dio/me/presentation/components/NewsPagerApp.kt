@@ -68,7 +68,9 @@ fun NewsItem(news: News) {
             verticalAlignment = Alignment.CenterVertically
         ) {
             SvgImage(
-                modifier = Modifier.weight(0.2f),
+                modifier = Modifier
+                    .weight(0.2f)
+                    .padding(Spacing_2),
                 url = news.icon
             )
             Text(
