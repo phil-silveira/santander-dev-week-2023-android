@@ -5,6 +5,6 @@
 
 Santander app's home screen clone made with Jetpack Compose. 🚀
 
-<img src="docs/screenshots/screenshot-1.png" width="150" height="200" />
-
-<img src="docs/screenshots/screenshot-2.gif" width="150" height="200" />
+<img src="docs/screenshots/screenshot-1.png" width="150"/>
+<img src="docs/screenshots/screenshot-2.gif" width="150"/>
+<img src="docs/screenshots/screenshot-3.gif" width="150"/>
