@@ -121,8 +121,7 @@ fun MainApp(response: Response? = null) =
                         news = response?.news ?: emptyList(),
                         modifier = Modifier
                             .padding(
-                                horizontal = Spacing_2,
-                                vertical = Spacing_2,
+                                vertical = Spacing_2
                             )
                             .constrainAs(news) {
                                 centerHorizontallyTo(parent)

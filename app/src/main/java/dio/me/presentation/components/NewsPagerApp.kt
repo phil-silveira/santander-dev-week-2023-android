@@ -32,7 +32,6 @@ import dio.me.data.model.News
 import dio.me.presentation.theme.SantanderDevWeekTheme
 import dio.me.presentation.theme.Spacing_1
 import dio.me.presentation.theme.Spacing_2
-import dio.me.presentation.theme.Spacing_4
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
@@ -60,6 +59,7 @@ fun NewsItem(news: News) {
         modifier = Modifier
             .fillMaxWidth()
             .height(115.dp)
+            .padding(horizontal = Spacing_2)
     ) {
         Row(
             modifier = Modifier
@@ -103,9 +103,11 @@ fun Indicator(
 
             Box(
                 modifier = Modifier
+                    .padding(2.dp)
                     .clip(CircleShape)
                     .background(color)
                     .size(Spacing_1)
+
             )
 
         }
